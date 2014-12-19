@@ -1,5 +1,5 @@
-from src import f1
-from src import f2
+import f1
+import f2
 
 def superfunction():
     return [x.action() for x in [f1, f2]]
